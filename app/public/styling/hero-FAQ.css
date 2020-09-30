@@ -1,0 +1,176 @@
+html,body {
+  background: #313032;
+  /* background: #EFF3F4; */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.hero.is-info.is-bold {
+  background-image: linear-gradient(141deg,#549377 0,#549377 71%,#549377 100%);
+}
+
+.hero-body .container {
+  max-width: 700px;
+  height: 50px;
+}
+
+.hero-body .title {
+  color: hsl(192,17%,99%) !important;
+}
+
+.hero-body .subtitle {
+  color: hsl(192,17%,99%) !important;
+  padding-top: 2rem;
+  line-height: 1.5;
+}
+
+.navbar-burger {
+  color: #ffffff;
+}
+
+.tabs li.is-active a {
+  border-bottom-color: #F24333;
+}
+
+.tabs a:hover {
+  border-bottom-color: #F24333;
+}
+
+.tag:not(body).is-primary {
+  background-color: #F24333;
+  color: #fff;
+}
+
+.hero.is-info.is-bold .navbar-menu {
+  background-image: linear-gradient(141deg,#549377 0,#549377 71%,#549377 100%);
+}
+
+.hero.is-info .navbar-menu {
+  background-color: #549377;
+}
+
+.new-alerts {
+  color: #999999;
+  padding-left: 10px;
+}
+
+.new-alerts:hover {
+  color: #666666;
+}
+
+h1 {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+h2 {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+h3 {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+h4 {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+p .title {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.form-title {
+  color: #FFFFFF;
+}
+
+.label {
+  color: #FFFFFF;
+}
+
+.features {
+  padding: 2rem 0;
+}
+
+.box.cta {
+  border-radius: 0;
+  border-left: none;
+  border-right: none;
+  background: #0E0E0E;
+}
+
+.card-image > .fa {
+  font-size: 8rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: #F24333;
+}
+
+.card-content .content {
+  font-size: 14px;
+  margin: 1rem 1rem;
+}
+
+.card-content .content h4 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.card {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18);
+  margin-bottom: 2rem;
+}
+
+.intro {
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.sandbox {
+  padding: 3rem 0;
+}
+
+.tile.notification {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.is-shady {
+  animation: flyintoright .4s backwards;
+  background: #fafafa;
+  box-shadow: rgba(0, 0, 0, .1) 0 1px 0;
+  border-radius: 4px;
+  display: inline-block;
+  margin: 10px;
+  position: relative;
+  transition: all .2s ease-in-out;
+}
+
+.is-white {
+  background-color: #fafafa !important;
+}
+
+.is-shady:hover {
+  box-shadow: 0 10px 16px rgba(0, 0, 0, .13), 0 6px 6px rgba(0, 0, 0, .19);
+}
+
+.footer-links a {
+  color: #549377;
+}
+
+.footer-links a:hover {
+  color: #333333;
+}
+
+.footer-titles {
+  font-weight: 800;
+  font-size: 1.5rem;
+  font-family: 'Nunito Sans', sans-serif;
+  text-shadow: 1px 1px 1px #000, 3px 3px 5px rgb(0, 0, 3);
+}
+
+.footer-titles strong {
+  color: #FFFFFF;
+}
+
+.footer {
+  background-color: #0E0E0E;
+}

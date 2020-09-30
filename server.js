@@ -8,7 +8,6 @@ app.use(express.static('app/public'));
 app.use(express.urlencoded({ extended:true }));
 app.use(express.json());
 
-// require("./app/routes/apiRoutes")(app);
 require("./app/routes/htmlRoutes")(app);
 
 app.listen(PORT, function() {
